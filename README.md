@@ -2,7 +2,7 @@
 
 ![Quiz logo](https://github.com/JUHING-99/Quiz/blob/main/assets/readme1.gif)
 ## ¡Es hora del Quiz! 
-### ¿En qué consiste?
+#### ¿En qué consiste?
 En la página _Quiz_ encontrarás **10** preguntas que debes contestar de una en una. Algunas de ellas tienen múltiples respuestas correctas, otras son de respuesta única. Al finalizar podrás validar tus respuestas y descubrir cuántas de ellas has _acertado_.
 
 ![Quiz logo](https://github.com/JUHING-99/Quiz/blob/main/assets/readme3.gif)
