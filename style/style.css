@@ -1,0 +1,104 @@
+/*Esto es general para todo el proyecto*/
+*{
+    box-sizing: border-box;
+}
+  
+html {
+      scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Almendra';
+    font-size: 22px;
+}
+   
+header{
+    width:70%;
+    margin: auto;
+    text-align: center;
+}
+
+.header{
+    width: 60%;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+main{
+    width:50%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.25;
+  }
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #e49182;
+}
+      
+nav > a {
+    color: black;
+    padding: 0.7em 1.1em;
+    text-decoration: none;
+    text-align: center;
+}
+    
+nav > a:hover{
+    background-color:#F97639 ;
+}
+
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+div.top{
+    position:fixed;
+    bottom:10px;
+    right: 10px;
+    background-color: #9FD0BC;
+    padding: 10px;
+    border-radius: 5px;
+    opacity:80%;
+    -webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 5px 5px 3px 5px rgba(252,213,206,0); 
+    box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 5px 5px 3px 5px rgba(252,213,206,0);
+}
+    
+div.top > a{
+    text-decoration: none;
+    color:black;
+}
+
+
+/*Esto es index*/
+
+
+#index::after {
+    content: ""; 
+    background: url('../assets/quiz.jpg') ; 
+    opacity: 0.4; 
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0; 
+    position: absolute; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: -1; 
+}
+
+.opac{
+background-color: #fdd9af;
+}
+
+article{
+    padding: 20px;
+    margin: 30px auto;
+}
