@@ -58,6 +58,7 @@ nav > a:hover{
 footer{
     margin-top: 50px;
     margin-bottom: 60px;
+    padding-top: 20px;
 }
 
 div.top{
@@ -104,7 +105,7 @@ a{
     position: absolute;
     background-size: contain;
     z-index: -1;
-    height: 1000px;
+    height: 100vh;
 }
 
 .opac{
@@ -190,20 +191,8 @@ span{
 
 /*media queries*/ 
 
-@media only screen and (max-width: 850px) {
-    #index::after {
-        content: ""; 
-        background: url('../assets/quiz.jpg') ; 
-        opacity: 0.4; 
-        top: 0; 
-        left: 0; 
-        bottom: 0; 
-        right: 0; 
-        position: absolute;
-        background-size:contain;
-        z-index: -1; 
-        height: 1000px;
-    }
+@media only screen and (max-width: 768px) {
+    /*index*/
 
     header{
         width: 100%;
@@ -212,6 +201,23 @@ span{
         width: 100%;
     }
     .header{
-        width: 100%;
+        width: 90%;
     }
+}
+
+@media only screen and (max-width: 550px){
+    
+    div{
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 468px){
+    #index::after {
+        height: 100vh;
+    }
+    
+    
 }
