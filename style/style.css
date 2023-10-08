@@ -129,7 +129,8 @@ div{
 }
 
 button{
-    border: #9B62D0 dashed;
+    border: #048b55 dashed;
+    background-color: #aed9ab;
     padding: 0.45em;
     margin :0.45em;
     border-radius: 0.25em;
