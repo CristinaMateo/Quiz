@@ -21,8 +21,8 @@ header{
 
 .header{
     width: 60%;
-    margin: 20px auto;
-    padding: 5px;
+    margin: 0.9em auto;
+    padding: 0.23em;
 }
 
 main{
@@ -54,7 +54,6 @@ nav > a:hover{
     background-color:#F9A94D ;
 }
 
-
 footer{
     margin-top: 50px;
     margin-bottom: 60px;
@@ -63,11 +62,11 @@ footer{
 
 div.top{
     position:fixed;
-    bottom:10px;
-    right: 10px;
+    bottom:0.45em;
+    right: 0.45em;
     background-color: #9FD0BC;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 0.45em;
+    border-radius: 0.23em;
     opacity:80%;
     -webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 5px 5px 3px 5px rgba(252,213,206,0); 
     box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 5px 5px 3px 5px rgba(252,213,206,0);
@@ -81,8 +80,8 @@ div.top > a{
 
 /*Esto es index*/
 article{
-    padding: 20px;
-    margin: 30px auto;
+    padding: 0.9em;
+    margin: 1.36em auto;
 }
 
 img{
@@ -94,18 +93,13 @@ a{
     color: black;
 }
 
-#index::after {
-    content: ""; 
-    background: url('../assets/quiz.jpg') ; 
-    opacity: 0.4; 
-    top: 0; 
-    left: 0; 
-    bottom: 0; 
-    right: 0; 
-    position: absolute;
+#index{
+    
+    background: url('../assets/quiz.jpg') ;
+    background-position: center; 
     background-size: contain;
+    background-repeat: repeat;
     z-index: -1;
-    height: 100vh;
 }
 
 .opac{
@@ -116,34 +110,34 @@ background-color: #fef5ebb9;
 
 /*empieza página quiz*/
 fieldset{
-    padding: 20px;
-    margin: 50px auto;
+    padding: 0.9em;
+    margin: 2.27em auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 10px;
-    margin: 20px auto;
+    padding: 0 0.45em;
+    margin: 0.9em auto;
     justify-content: space-around;
 }
 
 div{
     flex: 50%;
     max-width: 40%;
-    padding: 15px;
-    margin: 10px;
+    padding: 0.68em;
+    margin: 0.45em;
     border: black solid 1px;
 }
 
 button{
     border: #9B62D0 dashed;
-    padding: 10px;
-    margin :10px;
+    padding: 0.45em;
+    margin :0.45em;
     border-radius: 0.25em;
     font-size: large;
     font-family: 'Almendra';
 }
 
 span{
-    padding: 10px;
+    padding: 0.45em;
     text-align: justify;
 }
 
@@ -203,6 +197,9 @@ span{
     .header{
         width: 90%;
     }
+    nav, main{   
+        flex-direction: column;
+      }
 }
 
 @media only screen and (max-width: 550px){
@@ -211,13 +208,5 @@ span{
         flex: 100%;
         max-width: 100%;
     }
-    
-}
-
-@media only screen and (max-width: 468px){
-    #index::after {
-        height: 100vh;
-    }
-    
     
 }
