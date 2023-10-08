@@ -136,13 +136,17 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
         document.getElementById("diez").style.borderColor= "red";
         document.getElementById("correctoDiez").style.borderColor = "red";
         let correccion = document.createElement("span");
-        let respuesta= document.createTextNode("Muy bien. 'La Odisea' es una epopeya, no una novela. La primera novela del mundo se atribuye comúnmente a 'Don Quijote de la Mancha' de Miguel de Cervantes.");
+        let respuesta= document.createTextNode("Falso. 'La Odisea' es una epopeya, no una novela. La primera novela del mundo se atribuye comúnmente a 'Don Quijote de la Mancha' de Miguel de Cervantes.");
         correccion.appendChild(respuesta);
         document.getElementById("diez").appendChild(correccion);
 
     } else if(odisea === "falso"){
         document.getElementById("diez").style.borderColor= "lightgreen";
         document.getElementById("diez").style.borderWidth= "thick";
+        let correccion = document.createElement("span");
+        let respuesta= document.createTextNode("Muy bien. 'La Odisea' es una epopeya, no una novela. La primera novela del mundo se atribuye comúnmente a 'Don Quijote de la Mancha' de Miguel de Cervantes.");
+        correccion.appendChild(respuesta);
+        document.getElementById("diez").appendChild(correccion);
     }
 
     
