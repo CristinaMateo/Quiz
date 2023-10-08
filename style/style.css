@@ -129,6 +129,7 @@ div{
     max-width: 40%;
     padding: 15px;
     margin: 10px;
+    border: black solid 1px;
 }
 
 button{
@@ -140,10 +141,10 @@ button{
     font-family: 'Almendra';
 }
 
-input{
-    padding-left: 100px;
+span{
+    padding: 10px;
+    text-align: justify;
 }
-
 
 #uno{
    background-color: #D2DBEE;
