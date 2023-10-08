@@ -1,102 +1,3 @@
-let seleccionUno = document.querySelectorAll("#uno > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionUno[i].addEventListener("click", function(){
-       seleccionUno[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
-
-let seleccionDos = document.querySelectorAll("#dos > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionDos[i].addEventListener("click", function(){
-       seleccionDos[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
-
-let seleccionTres = document.querySelectorAll("#tres > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionTres[i].addEventListener("click", function(){
-       seleccionTres[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
-
-let seleccionCuatro = document.querySelectorAll("#cuatro > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionCuatro[i].addEventListener("click", function(){
-       seleccionCuatro[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
-
-let seleccionCinco = document.querySelectorAll("#cinco > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionCinco[i].addEventListener("click", function(){
-       seleccionCinco[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
-
-let seleccionSeis = document.querySelectorAll("#seis > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionSeis[i].addEventListener("click", function(){
-       seleccionSeis[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
-
-let seleccionSiete = document.querySelectorAll("#siete > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionSiete[i].addEventListener("click", function(){
-       seleccionSiete[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
-
-let seleccionOcho = document.querySelectorAll("#ocho > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionOcho[i].addEventListener("click", function(){
-       seleccionOcho[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
-
-let seleccionNueve = document.querySelectorAll("#nueve > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionNueve[i].addEventListener("click", function(){
-       seleccionNueve[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
-
-let seleccionDiez = document.querySelectorAll("#diez > input")
- 
-for (let i = 0; i < seleccion.length; i++) {
-   seleccionDiez[i].addEventListener("click", function(){
-       seleccionDiez[i].style.backgroundColor = "#33B1C1";
-   })
-}
-
-
 
 
 document.getElementById("quizForm").addEventListener("submit", function(event){
@@ -123,7 +24,9 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
         document.getElementById("uno").style.borderColor= "red";
 
     } else if(cliffhanger === "serializacion"){
+        document.getElementById("uno").style.borderWidth= "thick";
         document.getElementById("uno").style.borderColor= "lightgreen";
+
     }
 
 
@@ -133,6 +36,7 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 
     } else if(masLarga === "proust"){
         document.getElementById("dos").style.borderColor= "lightgreen";
+        document.getElementById("dos").style.borderWidth= "thick";
     }
 
 
@@ -142,6 +46,7 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 
     } else if(JaneAusten === "persuasion" || JaneAusten === "abadia"){
         document.getElementById("tres").style.borderColor= "lightgreen";
+        document.getElementById("tres").style.borderWidth= "thick";
     }
 
 
@@ -151,6 +56,7 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 
     } else if(anonimos === "austen" || anonimos === "shelley"){
         document.getElementById("cuatro").style.borderColor= "lightgreen";
+        document.getElementById("cuatro").style.borderWidth= "thick";
     }
 
 
@@ -160,6 +66,7 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 
     } else if(policiaca === "galdos"){
         document.getElementById("cinco").style.borderColor= "lightgreen";
+        document.getElementById("cinco").style.borderWidth= "thick";
     }
 
 
@@ -169,6 +76,7 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 
     } else if(primeraMuestra === "glosas"){
         document.getElementById("seis").style.borderColor= "lightgreen";
+        document.getElementById("seis").style.borderWidth= "thick";
     }
 
 
@@ -178,6 +86,7 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 
     } else if(jarchas === "liricas"){
         document.getElementById("siete").style.borderColor= "lightgreen";
+        document.getElementById("siete").style.borderWidth= "thick";
     }
 
 
@@ -187,15 +96,17 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 
     } else if(nobel === "hemingway" || nobel === "marquez"){
         document.getElementById("ocho").style.borderColor= "lightgreen";
+        document.getElementById("ocho").style.borderWidth= "thick";
     }
 
 
-    if(mobyDick !== "verdadero"){
+    if(mobyDick !== "si"){
         alerta+="Respuesta incorrecta!";
         document.getElementById("nueve").style.borderColor= "red";
 
-    } else if(mobyDick === "verdadero"){
+    } else if(mobyDick === "si"){
         document.getElementById("nueve").style.borderColor= "lightgreen";
+        document.getElementById("nueve").style.borderWidth= "thick";
     }
 
 
@@ -205,6 +116,7 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 
     } else if(odisea === "falso"){
         document.getElementById("diez").style.borderColor= "lightgreen";
+        document.getElementById("diez").style.borderWidth= "thick";
     }
 
     
@@ -217,14 +129,12 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
          aviso.appendChild(mensaje);
          document.getElementById("quiz").appendChild(aviso);
 
-    }
-
-    if(alerta.length == 0){
+    } else if(alerta.length == 0){
        
         let aviso = document.createElement("span");
-        let mensaje= document.createTextNode("10/10 correcto");
-        aviso.style.color="lightgreen";
-        aviso.style.fontSize = "1em"
+        let mensaje= document.createTextNode("¡Genial, has acertado todo!");
+        aviso.style.color="green";
+        aviso.style.fontSize = "20px"
         aviso.appendChild(mensaje);
         document.getElementById("quiz").appendChild(aviso);
 

@@ -40,7 +40,7 @@ p{
 nav{
     display: flex;
     justify-content: center;
-    background-color: #e49182;
+    background-color: #FCC688;
 }
       
 nav > a {
@@ -51,7 +51,7 @@ nav > a {
 }
     
 nav > a:hover{
-    background-color:#F97639 ;
+    background-color:#F9A94D ;
 }
 
 
@@ -79,7 +79,19 @@ div.top > a{
 
 
 /*Esto es index*/
+article{
+    padding: 20px;
+    margin: 30px auto;
+}
 
+img{
+    width: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
 
 #index::after {
     content: ""; 
@@ -96,13 +108,10 @@ div.top > a{
 }
 
 .opac{
-background-color: #fef5ebea;
+background-color: #fef5ebb9;
 }
 
-article{
-    padding: 20px;
-    margin: 30px auto;
-}
+
 
 /*empieza página quiz*/
 fieldset{
@@ -115,7 +124,7 @@ fieldset{
     justify-content: space-around;
 }
 
-label{
+div{
     flex: 50%;
     max-width: 40%;
     padding: 15px;
@@ -133,14 +142,13 @@ button{
 
 input{
     padding-left: 100px;
-    visibility: hidden;
 }
+
 
 #uno{
-   background-color: #D2DBEE; 
-
-   
+   background-color: #D2DBEE;
 }
+
 
 #dos{
     background-color: #C8E4D9; 
