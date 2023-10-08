@@ -101,10 +101,10 @@ a{
     left: 0; 
     bottom: 0; 
     right: 0; 
-    position: absolute; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    z-index: -1; 
+    position: absolute;
+    background-size: contain;
+    z-index: -1;
+    height: 1000px;
 }
 
 .opac{
@@ -185,4 +185,33 @@ span{
 
 #diez{
     background-color: #DDDDA6;
+}
+
+
+/*media queries*/ 
+
+@media only screen and (max-width: 850px) {
+    #index::after {
+        content: ""; 
+        background: url('../assets/quiz.jpg') ; 
+        opacity: 0.4; 
+        top: 0; 
+        left: 0; 
+        bottom: 0; 
+        right: 0; 
+        position: absolute;
+        background-size:contain;
+        z-index: -1; 
+        height: 1000px;
+    }
+
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
 }
