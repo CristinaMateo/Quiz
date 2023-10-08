@@ -10,6 +10,7 @@ html {
 body {
     font-family: 'Almendra';
     font-size: 22px;
+    background-color: #FEF5EB;
 }
    
 header{
@@ -25,7 +26,7 @@ header{
 }
 
 main{
-    width:50%;
+    width:70%;
     margin:auto;
     display: flex;
     flex-wrap: wrap;
@@ -95,10 +96,84 @@ div.top > a{
 }
 
 .opac{
-background-color: #fdd9af;
+background-color: #fef5ebea;
 }
 
 article{
     padding: 20px;
     margin: 30px auto;
+}
+
+/*empieza página quiz*/
+fieldset{
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+
+label{
+    flex: 50%;
+    max-width: 40%;
+    padding: 15px;
+    margin: 10px;
+}
+
+button{
+    border: #9B62D0 dashed;
+    padding: 10px;
+    margin :10px;
+    border-radius: 0.25em;
+    font-size: large;
+    font-family: 'Almendra';
+}
+
+input{
+    padding-left: 100px;
+    visibility: hidden;
+}
+
+#uno{
+   background-color: #D2DBEE; 
+
+   
+}
+
+#dos{
+    background-color: #C8E4D9; 
+}
+
+#tres{
+    background-color: #FDD9AF; 
+}
+
+#cuatro{
+    background-color: #F2C3BB; 
+}
+
+#cinco{
+    background-color: #DDDDA6; 
+}
+
+#seis{
+    background-color: #D2DBEE;  
+}
+
+#siete{
+    background-color: #C8E4D9; 
+}
+
+#ocho{
+    background-color: #FDD9AF; 
+}
+
+#nueve{
+    background-color: #F2C3BB; 
+}
+
+#diez{
+    background-color: #DDDDA6;
 }
