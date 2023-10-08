@@ -111,13 +111,14 @@ background-color: #fef5ebb9;
 /*empieza página quiz*/
 fieldset{
     padding: 0.9em;
-    margin: 2.27em auto;
+    margin: 3em auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0.45em;
-    margin: 0.9em auto;
     justify-content: space-around;
 }
+
+
+
 
 div{
     flex: 50%;
@@ -143,43 +144,74 @@ span{
 
 #uno{
    background-color: #D2DBEE;
+
+   & input:checked + label{
+    background-color: #B5C4E3
+   }
 }
 
 
 #dos{
     background-color: #C8E4D9; 
+    & input:checked + label{
+        background-color: #ADD7C6;
+       }
 }
 
 #tres{
     background-color: #FDD9AF; 
+    & input:checked + label{
+        background-color: #FCC688;
+       }
 }
 
 #cuatro{
     background-color: #F2C3BB; 
+    & input:checked + label{
+        background-color: #EBA598;
+       }
 }
 
 #cinco{
-    background-color: #DDDDA6; 
+    background-color: #EED2ED; 
+    & input:checked + label{
+        background-color: #E3B5E1;
+       }
 }
 
 #seis{
     background-color: #D2DBEE;  
+    & input:checked + label{
+        background-color: #B5C4E3;
+       }
 }
 
 #siete{
     background-color: #C8E4D9; 
+    & input:checked + label{
+        background-color: #ADD7C6;
+       }
 }
 
 #ocho{
     background-color: #FDD9AF; 
+    & input:checked + label{
+        background-color: #FCC688;
+       }
 }
 
 #nueve{
     background-color: #F2C3BB; 
+    & input:checked + label{
+        background-color: #EBA598;
+       }
 }
 
 #diez{
-    background-color: #DDDDA6;
+    background-color: #EED2ED;
+    & input:checked + label{
+        background-color: #E3B5E1;
+       }
 }
 
 
