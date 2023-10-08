@@ -35,11 +35,11 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
     }
 
 
-    if(JaneAusten !== "persuasion" || JaneAusten !== "abadia"){
+    if(JaneAusten !== "persuasion" && JaneAusten !== "abadia"){
         alerta+="Respuesta incorrecta!";
         document.getElementById("tres").style.borderColor= "red";
 
-    } else if(JaneAusten === "persuasion" && JaneAusten === "abadia"){
+    } else if(JaneAusten === "persuasion" || JaneAusten === "abadia"){
         document.getElementById("tres").style.borderColor= "lightgreen";
     }
 
