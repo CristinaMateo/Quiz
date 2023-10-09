@@ -149,27 +149,32 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
         document.getElementById("diez").appendChild(correccion);
     }
 
-    
+    let aviso = document.createElement("span");
+    let mensaje= document.createTextNode("");
+    aviso.style.fontSize = "20px"
+    aviso.appendChild(mensaje);
+    document.getElementById("quiz").appendChild(aviso);
+    aviso.setAttribute("id", "aviso");
+
     if(alerta.length != 0){
        
-         let aviso = document.createElement("span");
-         let mensaje= document.createTextNode("Revisa las respuestas incorrectas y las preguntas sin respuesta.");
-         aviso.style.color="#DD1C1A";
-         aviso.style.fontSize = "1em"
-         aviso.appendChild(mensaje);
-         document.getElementById("quiz").appendChild(aviso);
+        mensaje.textContent = "Revisa las respuestas incorrectas."
+        aviso.style.color="red";
 
-    } else if(alerta.length == 0){
+    } else if(alerta.length == 0 ){
        
-        let aviso = document.createElement("span");
-        let mensaje= document.createTextNode("¡Genial, has acertado todo!");
-        aviso.style.color="green";
-        aviso.style.fontSize = "20px"
-        aviso.appendChild(mensaje);
-        document.getElementById("quiz").appendChild(aviso);
-
-   }
-
+       mensaje.textContent = "¡Genial, has acertado todo!"
+       aviso.style.color="green";
+   } 
 
 })
 
+
+
+//bucle for inputs queryselectorAll inputs de las preguntas cambie el atributo select a false 
+document.getElementById("reset").addEventListener("click", function(){
+
+    location.reload()
+
+
+});
