@@ -173,4 +173,3 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 
 })
 
-
