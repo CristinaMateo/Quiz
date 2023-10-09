@@ -138,6 +138,10 @@ button{
     font-family: 'Almendra';
 }
 
+button:active{
+    background-color: #82a280;
+}
+
 span{
     padding: 0.45em;
     text-align: justify;
