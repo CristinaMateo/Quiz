@@ -79,6 +79,7 @@ div.top > a{
 
 
 /*Esto es index*/
+
 article{
     padding: 0.9em;
     margin: 1.36em auto;
@@ -109,6 +110,7 @@ background-color: #fef5ebb9;
 
 
 /*empieza página quiz*/
+
 fieldset{
     padding: 0.9em;
     margin: 3em auto;
@@ -116,8 +118,6 @@ fieldset{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-
 
 
 div{
@@ -154,7 +154,6 @@ span{
     background-color: #B5C4E3
    }
 }
-
 
 #dos{
     background-color: #C8E4D9; 

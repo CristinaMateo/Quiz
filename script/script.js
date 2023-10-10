@@ -170,11 +170,8 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
 })
 
 
-
-//bucle for inputs queryselectorAll inputs de las preguntas cambie el atributo select a false 
 document.getElementById("reset").addEventListener("click", function(){
 
     location.reload()
-
 
 });
