@@ -17,7 +17,7 @@ function comprobar(event){
     const mobyDick =event.target.mobyDick.value 
     const odisea =event.target.odisea.value
 
-
+    
 
     let alerta ="";
 
@@ -131,12 +131,13 @@ function comprobar(event){
         correccion.appendChild(respuesta);
         document.getElementById("nueve").appendChild(correccion);
     }
-
+    
 
     if(odisea !== "falso"){
         alerta+="Respuesta incorrecta!";
         document.getElementById("diez").style.borderColor= "red";
         document.getElementById("correctoDiez").style.borderColor = "red";
+    
         let correccion = document.createElement("span");
         let respuesta= document.createTextNode("Falso. 'La Odisea' es una epopeya, no una novela. La primera novela del mundo se atribuye comúnmente a 'Don Quijote de la Mancha' de Miguel de Cervantes.");
         correccion.appendChild(respuesta);
@@ -150,6 +151,7 @@ function comprobar(event){
         correccion.appendChild(respuesta);
         document.getElementById("diez").appendChild(correccion);
     }
+
 
     let aviso = document.createElement("span");
     let mensaje= document.createTextNode("");
