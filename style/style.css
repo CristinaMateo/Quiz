@@ -83,7 +83,7 @@ article{
     margin: 1.36em auto;
 }
 
-img{
+#ir{
     width: 10%;
 }
 
@@ -108,6 +108,10 @@ background-color: #fef5ebdb;
 
 
 /*empieza página quiz*/
+
+#libro{
+    width: 50%;
+}
 
 fieldset{
     padding: 0.9em;
