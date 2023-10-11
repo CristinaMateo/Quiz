@@ -1,6 +1,8 @@
 
 
-document.getElementById("quizForm").addEventListener("submit", function(event){
+document.getElementById("quizForm").addEventListener("submit", comprobar)
+
+function comprobar(event){
 
     event.preventDefault();
        
@@ -167,11 +169,13 @@ document.getElementById("quizForm").addEventListener("submit", function(event){
        aviso.style.color="green";
    } 
 
-})
+}
 
 
-document.getElementById("reset").addEventListener("click", function(){
+document.getElementById("reset").addEventListener("click", borrar)
+
+function borrar(){
 
     location.reload()
 
-});
+};
