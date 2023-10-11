@@ -6,8 +6,8 @@ Visit website:  https://juhing-99.github.io/Quiz/
 
 
 ![Quiz logo](https://github.com/JUHING-99/Quiz/blob/main/assets/readme1.gif)
-## ¡Es hora del Quiz! 
-#### ¿En qué consiste? What is it about?
+## ¡Es hora del Quiz! Quiz-time!
+#### ¿En qué consiste? 
 En la página _Quiz_ encontrarás **10** preguntas que debes contestar de una en una. Algunas de ellas tienen múltiples respuestas correctas, otras son de respuesta única. Al finalizar podrás validar tus respuestas y descubrir cuántas de ellas has _acertado_ ya que se marcarán en verde o rojo según sea correcta o no tu respuesta.
 
 #### What is it about?
