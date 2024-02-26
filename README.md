@@ -1,6 +1,6 @@
 # Quiz
 
-Visit website:  https://juhing-99.github.io/Quiz/
+[Visit website](https://cristinamateo.github.io/Quiz/)
 
 
 
